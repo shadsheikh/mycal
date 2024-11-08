@@ -21436,9 +21436,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.41":
-  version: 1.5.52
-  resolution: "electron-to-chromium@npm:1.5.52"
-  checksum: fd89ec7587726d99d138d0bbe0e26e490284766b2bce29da21298b80b6ecd16db69c6b1a602d33b37129b9e07c8beaef4c9490681ca1a29a4fcd38ecabc327b8
+  version: 1.5.55
+  resolution: "electron-to-chromium@npm:1.5.55"
+  checksum: 7c797418ef30b0021b586d023eec1e87400632add6f37285e993716292f2f3451a36d6266c8502df34c776000bca01ad8e17b736b1f7b3de022a82a45d0dc06f
   languageName: node
   linkType: hard
 
@@ -25204,11 +25204,11 @@ __metadata:
   linkType: hard
 
 "i18next@npm:^23.2.3":
-  version: 23.16.4
-  resolution: "i18next@npm:23.16.4"
+  version: 23.16.5
+  resolution: "i18next@npm:23.16.5"
   dependencies:
     "@babel/runtime": ^7.23.2
-  checksum: a753a23faf87b5028c9b136645b3d6287dd13c6e5ffadcc652edce8c321da2403f57c513aa7168f7ba664e85853aa83acbd291839d622addd701fc85bc991438
+  checksum: c0b483a3e6f9118654d243c7a39e2ccd4a8f5b32b6df90d9626cedb2916703aaaea98b15ad40e78fc399e9d3a818b85e538697250e9b7561fb91843627f5b428
   languageName: node
   linkType: hard
 
@@ -33459,9 +33459,11 @@ __metadata:
   linkType: hard
 
 "psl@npm:^1.1.28, psl@npm:^1.1.33, psl@npm:^1.1.7":
-  version: 1.9.0
-  resolution: "psl@npm:1.9.0"
-  checksum: 20c4277f640c93d393130673f392618e9a8044c6c7bf61c53917a0fddb4952790f5f362c6c730a9c32b124813e173733f9895add8d26f566ed0ea0654b2e711d
+  version: 1.10.0
+  resolution: "psl@npm:1.10.0"
+  dependencies:
+    punycode: ^2.3.1
+  checksum: e2662c74def5f4a4db214363be905835da1e989fc66b07a95c9c4bc3e733aada0045f031777d28510a241f7d682f792163a44a7cbbf20a953cdb6e981e3b565c
   languageName: node
   linkType: hard
 
@@ -33517,7 +33519,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"punycode@npm:^2.1.0, punycode@npm:^2.1.1, punycode@npm:^2.3.0":
+"punycode@npm:^2.1.0, punycode@npm:^2.1.1, punycode@npm:^2.3.0, punycode@npm:^2.3.1":
   version: 2.3.1
   resolution: "punycode@npm:2.3.1"
   checksum: bb0a0ceedca4c3c57a9b981b90601579058903c62be23c5e8e843d2c2d4148a3ecf029d5133486fb0e1822b098ba8bba09e89d6b21742d02fa26bda6441a6fb2
@@ -38061,21 +38063,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tldts-core@npm:^6.1.58":
-  version: 6.1.58
-  resolution: "tldts-core@npm:6.1.58"
-  checksum: d39a80b483d6d7baa708c59395081162ee32de9e702a0944c18772d7a152f241d448ae2db19640e343496fb980ed2906b18afe4d34c889649dfeb111cc155b93
+"tldts-core@npm:^6.1.59":
+  version: 6.1.59
+  resolution: "tldts-core@npm:6.1.59"
+  checksum: 36731e7d4b7405afb303d16bc3841a978666d5f598ef95350ab6c0ffd543b65a327689aab5f0713b78b5a9b88adbdd737ea6864a2e34160fb214bff793b482f1
   languageName: node
   linkType: hard
 
 "tldts@npm:^6.1.32":
-  version: 6.1.58
-  resolution: "tldts@npm:6.1.58"
+  version: 6.1.59
+  resolution: "tldts@npm:6.1.59"
   dependencies:
-    tldts-core: ^6.1.58
+    tldts-core: ^6.1.59
   bin:
     tldts: bin/cli.js
-  checksum: df5ebd112a5ebdfc0ef41df58ddfe1df24dfd9b79697c50f990f8849e87b9c5da8539aae373240b5478e442a490bf9988d27fb3f765577ff3623661344c66a89
+  checksum: 75064cad700dc057768a1decf24bfe08c80f828a94678ca30e948129897ac48eb445e5cd68c7bd6b7ffb672c5381262fe0b0a5896e09afd54818db46d11592a1
   languageName: node
   linkType: hard
 
